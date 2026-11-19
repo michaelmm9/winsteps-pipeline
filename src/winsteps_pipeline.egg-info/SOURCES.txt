@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/winsteps_pipeline/__init__.py
-src/winsteps_pipeline.egg-info/PKG-INFO
-src/winsteps_pipeline.egg-info/SOURCES.txt
-src/winsteps_pipeline.egg-info/dependency_links.txt
-src/winsteps_pipeline.egg-info/requires.txt
-src/winsteps_pipeline.egg-info/top_level.txt

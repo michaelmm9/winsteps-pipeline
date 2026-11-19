@@ -17,9 +17,13 @@ the parser reproduces values read from Ministep's own report.
 
 Things to verify before relying on them:
 
-- The command-line (batch) call. It is optional and untested across program versions. The
-  supported path is to run the program yourself on the generated control file and let the
-  pipeline process the output files.
+-  The command-line (batch) call. On the one machine and version tested (free Ministep on
+  Windows), it wrote fresh item and person files with no manual step, and their sizes match a
+  manual run; a line-by-line comparison has not been done. The report file named in the call
+  is still written empty and is not understood, so the pipeline does not require it.
+  Behavior with the full WINSTEPS or other versions is untested. If the call fails, the
+  fallback is to run the program yourself on the generated control file and let the pipeline
+  process the output files.
 - The meaning of several output columns and status codes. Unconfirmed columns keep their
   original names (lowercased) and are not interpreted. Check the WINSTEPS manual.
 - QC thresholds are rule-of-thumb defaults and should be set per program.
