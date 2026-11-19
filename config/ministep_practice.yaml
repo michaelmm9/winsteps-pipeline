@@ -17,4 +17,4 @@ items:
 output:
   directory: outputs/ministep_practice
   item_file: ifile.txt
-  person_file: pfile.text
+  person_file: pfile.txt
