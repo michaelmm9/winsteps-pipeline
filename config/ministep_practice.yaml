@@ -1,0 +1,20 @@
+project:
+  name: ministep_pratice
+  title: "Ministep practice: simulated Rasch data"
+
+data:
+  file: data/practice/practice_data.dat
+  n_items: 20
+  person_label_start: 1       #person label begins in column 1
+  person_label_length: 8      #and is 8 characters long
+  item_first_column: 9        #responses begin in column 9
+  codes: "01"                 #valid response codes
+
+items:
+  label_prefix: Items        #labels become Item01...Item20
+  label_width: 2
+
+output:
+  directory: outputs/ministep_practice
+  item_file: ifile.txt
+  person_file: pfile.text
