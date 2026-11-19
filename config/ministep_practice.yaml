@@ -11,7 +11,7 @@ data:
   codes: "01"                 #valid response codes
 
 items:
-  label_prefix: Items        #labels become Item01...Item20
+  label_prefix: Item        #labels become Item01...Item20
   label_width: 2
 
 output:
