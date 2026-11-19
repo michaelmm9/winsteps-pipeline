@@ -17,7 +17,7 @@ the parser reproduces values read from Ministep's own report.
 
 Things to verify before relying on them:
 
--  The command-line (batch) call. On the one machine and version tested (free Ministep on
+- The command-line (batch) call. On the one machine and version tested (free Ministep on
   Windows), it wrote fresh item and person files with no manual step, and their sizes match a
   manual run; a line-by-line comparison has not been done. The report file named in the call
   is still written empty and is not understood, so the pipeline does not require it.
@@ -68,14 +68,3 @@ Copy an existing YAML in `config/`, change the values, point `data.file` at the 
 run the tests. Nothing in `src/` should need to change. If it does, treat that as a sign a
 setting is missing from the configuration.
 
-## Data policy
-
-Only simulated data is committed. Real response data and real output must never be added to
-the repository, even a private one. `outputs/` is ignored by Git.
-
-## Contributing
-
-- Work on a branch, run `pytest` before committing, and write commit messages that say what
-  changed and why.
-- Flags are prompts for review. Nothing in this project decides whether an item or person is
-  kept; that is a psychometrician's judgment.
