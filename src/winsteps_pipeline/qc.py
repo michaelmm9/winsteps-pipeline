@@ -23,7 +23,7 @@ class QCThresholds:
     se_max: float = 0.50             # item standard error above this
     person_infit_max: float = 1.5    # persons answer fewer items, so their statistics are noisier
     person_outfit_max: float = 1.5
-    drift_max: float = 0.30          # change in item measure between runs, after removing the shift
+    
 
 
 def _flag(kind, label, check, severity, value, threshold, message):
