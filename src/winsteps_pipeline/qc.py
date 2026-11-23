@@ -95,7 +95,7 @@ def flag_persons(persons, th=None):
 
 
 def compare_item_measures(current, previous, th=None):
-    """Compare item measures with an earlier run (the anchor-drift idea from Module 4).
+    """Compare item measures with an earlier run.
 
     Each run is centered on its own items, so the typical change (the median difference)
     is removed first. An item is flagged when it moves by more than drift_max beyond that.

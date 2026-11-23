@@ -1,0 +1,66 @@
+{
+  "created_utc": "2026-11-20 17:43:08",
+  "project": "ministep_practice",
+  "software": {
+    "winsteps_pipeline": "0.1.0",
+    "python": "3.11.9",
+    "pandas": "3.1.1",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "git": {
+    "commit": "da7c0508aa27d9aaab496f5f20b38561a3544915",
+    "uncommitted_changes": true
+  },
+  "config": {
+    "name": "ministep_practice",
+    "title": "Ministep practice: simulated Rasch data",
+    "data_file": "practice_data.dat",
+    "n_items": 20,
+    "person_label_start": 1,
+    "person_label_length": 8,
+    "item_first_column": 9,
+    "codes": "01",
+    "label_prefix": "Item",
+    "label_width": 2,
+    "output_dir": "ministep_practice",
+    "item_file": "ifile.txt",
+    "person_file": "pfile.txt"
+  },
+  "thresholds": {
+    "infit_max": 1.3,
+    "infit_min": 0.7,
+    "outfit_max": 1.3,
+    "outfit_min": 0.7,
+    "ptmeasure_low": 0.1,
+    "se_max": 0.5,
+    "person_infit_max": 1.5,
+    "person_outfit_max": 1.5
+  },
+  "inputs": {
+    "Item file": {
+      "file": "practice_ifile.txt",
+      "bytes": 3195,
+      "sha256": "c736eca69439f61fe23e925b5946f9f04d65208b6723618ee712ac950e616f49"
+    },
+    "Person file": {
+      "file": "practice_pfile.txt",
+      "bytes": 10081,
+      "sha256": "487d21a20fb6d4c43b09fcdf994c1b55348bc1c8b801eb3332de42c668be728e"
+    },
+    "Response data": {
+      "file": "practice_data.dat",
+      "bytes": 2100,
+      "sha256": "8add1c3b4577d22d4bafac80aaf0e3920d46b83e4179bef0744eb63861d794dc"
+    },
+    "Config": {
+      "file": "ministep_practice.yaml",
+      "bytes": 575,
+      "sha256": "f7e22de2aeba2b0bb398f1ff8696650a4e6dad7c8642040995c7f1e56c6028b5"
+    }
+  },
+  "results": {
+    "flags_total": 19,
+    "review": 10,
+    "note": 9
+  }
+}
